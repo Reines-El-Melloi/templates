@@ -1,0 +1,88 @@
+.lwprofile_container {
+  height: 624px;
+  width: 800px;
+  background: url("https://i.ibb.co/6s2Q5XZ/pargment.png");
+  background-size: contain;
+  margin: 0 auto;
+  padding: 20px;
+  outline: 10px solid #3a311a;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.lwprofile_infocontainer {
+  width: 525px;
+  height: 250px;
+  margin-left: 30%;
+}
+.lwprofile_title {
+  font: 34px "Playfair Display";
+  color: #3a311a;
+  text-align: center;
+}
+.lwprofile_title i {
+  font-weight: 700;
+  text-shadow: 0 0 5px #fff;
+  -webkit-text-stroke: 0.5px #000;
+  letter-spacing: 3px;
+  word-spacing: 15px;
+}
+.lwprofile_portrait #charly {
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  filter: sepia(75%);
+  outline: 5px ridge #3a311a;
+  float: left;
+}
+.lwprofile_info {
+  font: 18px "Playfair Display";
+  font-weight: 300;
+  background: #3a311a;
+  color: #fff;
+  margin: 0 auto;
+}
+.lwprofile_info table {
+  font: 14px "Playfair Display";
+  table-layout: fixed;
+  width: 100%;
+  background: #4c3b1f;
+  color: #fff;
+  text-align: center;
+}
+.lwprofile_info tr:nth-child(even) {
+  background-color: #c0bd9d;
+  color: #000;
+}
+.lwprofile_backgroundcontainer {
+  box-sizing: border-box;
+  height: 300px;
+  width: 100%;
+  background: rgba(76, 59, 31, 0.5);
+  margin: 20px auto;
+  padding: 15px;
+  outline: 5px ridge #3a311a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.textborder {
+  height: 20px;
+  width: 33%;
+  background: #3a311a;
+  font: 14px "Playfair Display";
+  color: #fff;
+  text-align: center;
+}
+.textinfo {
+  height: 250px;
+  font: 12px "Roboto";
+  font-weight: 400;
+  text-align: justify;
+  white-space: pre-line;
+  overflow: auto;
+  padding: 5px;
+}
+.textinfo::-webkit-scrollbar{width: 5px;}
+.textinfo::-webkit-scrollbar-track {background: #8F8662;}
+.textinfo::-webkit-scrollbar-thumb {background: #3A311A;}
